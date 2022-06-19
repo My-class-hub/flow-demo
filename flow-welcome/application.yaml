@@ -1,0 +1,16 @@
+server:
+  port: ":8000"
+mongodb:
+  host: "localhost"
+  port: "27017"
+  username: "root"
+  password: "123456"
+  database: "flow_welcome"
+  timeout: 20
+jwt:
+  signer: "golangpikaqiu2009sericealikabili"
+  maxAge: 604800
+local:
+  cap: 10
+  path: "D:/flow/"
+  url: "http://localhost:8000/api/v1/flow/preview/"
